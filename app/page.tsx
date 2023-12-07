@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -37,7 +38,7 @@ export default function Home() {
           height={37}
           priority
         />
-        <span>love jinqiao</span>
+        <Link href={'/about'}>love jinqiao</span>
       </div>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
